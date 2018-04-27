@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Friend Finder</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/surveyStyle.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form>
+            <div class="form-group">
+                <label for="nameInput">Name</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="photoLink">Profile Picture</label>
+                <input type="text" class="form-control" id="photoLink" placeholder="Enter link for profile picture">
+            </div>
+        </form>
+
+        <hr>
+
+        <h3>
+            <strong>Question 1</strong>
+        </h3>
+        <h4>The Earth is flat.</h4>
+        <select class="chosen-select" id="q1">
+            <option label="default" value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 2</strong>
+        </h3>
+        <h4>Harambe did nothing wrong.</h4>
+        <select class="chosen-select" id="q2">
+            <option label="default" value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 3</strong>
+        </h3>
+        <h4>JavaScript is a beautiful programming language.</h4>
+        <select class="chosen-select" id="q3">
+            <option label="default" value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 4</strong>
+        </h3>
+        <h4>Middleware is like a carwash.</h4>
+        <select class="chosen-select" id="q4">
+            <option label="default" value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 5</strong>
+        </h3>
+        <h4>Chipotle's new queso is bland and flavorless.</h4>
+        <select class="chosen-select" id="q5">
+            <option label="default" value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 6</strong>
+        </h3>
+        <h4>Marrying 2nd cousins is not inecest.</h4>
+        <select class="chosen-select" id="q6">
+            <option label="default" value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 7</strong>
+        </h3>
+        <h4>The United States should annex Canada.</h4>
+        <select class="chosen-select" id="q7">
+            <option label="default" value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 8</strong>
+        </h3>
+        <h4>Moist flushable wipes are better than regular toilet paper.</h4>
+        <select class="chosen-select" id="q8">
+            <option label="default" value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 9</strong>
+        </h3>
+        <h4>Chihuahuas are rats not dogs.</h4>
+        <select class="chosen-select" id="q9">
+            <option label="default" value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 10</strong>
+        </h3>
+        <h4>In a zombie apocalypse I would kneecap a friend to ensure my own survival.</h4>
+        <select class="chosen-select" id="q10">
+            <option label="default" value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        
+        <button id="submit-btn" type="submit" class="btn btn-primary">Submit</button>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="resultsModal" tabindex="-1" role="dialog" aria-labelledby="modTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modTitle">Friend Compatibility Results</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name">&nbsp;</h2>
+                    <img class="img-fluid" id="match-img" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#resultsModal">
+        See Results!
+    </button>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/javascript/survey.js"></script>
+</body>
+</html>
