@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Jamal",
+        "photo": "https://s3media.247sports.com/Uploads/Assets/205/967/4_967205.jpg",
+        "scores": [
+            "5",
+            "4",
+            "2",
+            "1",
+            "5",
+            "5",
+            "3",
+            "4",
+            "5",
+            "5"
+        ]
+    },
+    {
+        "name": "Patty",
+        "photo": "http://images4.fanpop.com/image/articles/80000/patty_80438_1.jpg?cache=1288808877",
+        "scores": [
+            "1",
+            "3",
+            "5",
+            "1",
+            "3",
+            "3",
+            "1",
+            "5",
+            "3",
+            "1"
+        ]
+    }
+]
