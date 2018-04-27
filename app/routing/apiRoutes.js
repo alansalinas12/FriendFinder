@@ -1,4 +1,4 @@
-export default function apiRoutes(app) {
+module.exports = function apiRoutes(app) {
     const fs = require("fs");
     const path = require("path");
     let friends = require("./../data/friends.json");
