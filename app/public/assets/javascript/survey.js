@@ -10,7 +10,7 @@ var config = {
         no_results_text: "Nothing in here."
     },
     ".chosen-select-width": {
-        width: "90%"
+        width: "95%"
     }
 };
 
@@ -18,7 +18,7 @@ for (var selector in config) {
     $(selector).chosen(config[selector]);
 }
 
-$("#submit").on("click", function (event) {
+$("#submit-btn").on("click", function (event) {
     event.preventDefault();
 
         var userData = {
